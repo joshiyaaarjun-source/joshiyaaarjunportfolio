@@ -75,14 +75,25 @@ export const projects = [
   },
 ] as const;
 
-export const experience = [
+type ExperienceItem = {
+  company: string;
+  role: string;
+  period: string;
+  link?: string;
+  text: string;
+  bullets: string[];
+};
+
+export const experience: ExperienceItem[] = [
   {
     company: 'Fortune Investment Services',
     role: 'AI Automation Engineer',
     period: 'Aug 2026 — Present',
     link: 'https://www.fortuneinvestment.in/',
     text: 'Developing AI-driven automation solutions for financial-services workflows.',
-    bullets: ['Develop and support AI-driven automation solutions for financial-services workflows'],
+    bullets: [
+      'Develop and support AI-driven automation solutions for financial-services workflows',
+    ],
   },
   {
     company: 'Flowcialize',
@@ -90,7 +101,13 @@ export const experience = [
     period: '2026 — Present',
     link: 'https://flowcialize.vercel.app/',
     text: 'Building the design-and-automation layer of a studio that ships websites, AI-powered workflows, and business systems.',
-    bullets: ['Responsive websites tailored to client requirements', 'AI chatbots, automated messaging and AI voice receptionist systems', 'Figma UI/UX, prototypes and interaction design', 'Business automation and API integrations', 'Client communication, deployment and solution design'],
+    bullets: [
+      'Responsive websites tailored to client requirements',
+      'AI chatbots, automated messaging and AI voice receptionist systems',
+      'Figma UI/UX, prototypes and interaction design',
+      'Business automation and API integrations',
+      'Client communication, deployment and solution design',
+    ],
   },
   {
     company: 'Big Bucks Innovation Pvt. Ltd.',
@@ -98,9 +115,14 @@ export const experience = [
     period: 'June 2026 — Present',
     link: 'https://bigbucksinnovation.com/',
     text: 'Working across frontend, backend and deployment inside a collaborative product development team.',
-    bullets: ['Full-stack web application development', 'Feature implementation and application improvements', 'Product development from design through deployment', 'Git-based collaboration and cloud deployment workflows'],
+    bullets: [
+      'Full-stack web application development',
+      'Feature implementation and application improvements',
+      'Product development from design through deployment',
+      'Git-based collaboration and cloud deployment workflows',
+    ],
   },
-] as const;
+];
 
 export const skills = {
   Engineering: ['Python', 'Java', 'C', 'C++', 'JavaScript', 'SQL', 'React', 'REST APIs'],
