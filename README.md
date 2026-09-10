@@ -1,129 +1,256 @@
-# Joshiyaa Arjun — Starry Portfolio
+# ✦ Joshiyaa Arjun — Portfolio
 
-A polished, responsive Next.js portfolio with a dark blue / gold starry visual language, subtle motion, custom star cursor, responsive navigation, project storytelling, skills, hackathons, education, contact links, and downloadable resume.
+> **Builder · Engineer · Product Designer · Automator**
 
-## Run locally
+My personal portfolio website — a digital home for the things I build, the problems I solve, and the ideas I'm curious enough to chase.
 
-```bash
-npm install
-npm run dev
-```
+🌐 **Live:** https://joshiyaaarjun-portfolio.vercel.app/
 
-Open `http://localhost:3000`.
+---
 
-For a production check:
+## ✦ About
 
-```bash
-npm run build
-npm start
-```
+I'm **Joshiyaa Arjun**, an Information Technology student and builder interested in the space where **software engineering, AI, automation, product design, and great interfaces** meet.
 
-## Where to edit the portfolio
+I like taking an idea from:
 
-**Edit only this file for normal content updates:**
+**💡 Idea → 🎨 Design → ⚙️ Build → 🤖 Automate → 🚀 Ship**
 
-`app/content.ts`
+This portfolio brings together my work, experience, projects, hackathons, education, and the technologies I use to turn ideas into working products.
 
-It is deliberately separated from the UI so you do not need to hunt through `page.tsx` every time you win a hackathon or learn a new skill.
+---
 
-### Add a new hackathon
+## 🛠️ What I Do
 
-Open `app/content.ts` and add another object to `hackathons`:
+* 💻 Full-stack web development
+* 🤖 AI & workflow automation
+* 🎨 UI/UX design & prototyping
+* 📊 Data analysis & data-driven applications
+* 🔌 API integrations & business automation
+* 🧠 Product thinking & solution design
+* 🏆 Hackathon projects & rapid prototyping
 
-```ts
-{ medal: '01', name: 'NEW HACKATHON', result: '1st Place', role: 'Team Lead' },
-```
+---
 
-Save, then run `npm run dev` and refresh the browser.
+## 🚀 Featured Projects
 
-### Add a skill
+### 🌙 Noor
 
-Add it to an existing category:
+**Safety · Community · Full Stack**
 
-```ts
-Engineering: ['Python', 'Java', 'New Skill'],
-```
+A women-exclusive platform focused on trusted identity verification, community support, learning, and safer networking.
 
-Or create a new category:
+**Role:** Product Designer + Developer
 
-```ts
-AI: ['Computer Vision', 'RAG', 'Agents'],
-```
+**Tech:** React · JavaScript · Python · HTML/CSS
 
-The new category automatically appears as a clickable skill tab.
+---
 
-### Add a completely new simple section
+### 🔄 SkillIssu
 
-Use the `customSections` array near the bottom of `app/content.ts`:
+**EdTech · Gamification · Knowledge Exchange**
 
-```ts
-{
-  id: 'leadership',
-  label: 'Leadership',
-  title: 'Building teams as carefully as products.',
-  body: 'A short introduction for the new section.',
-  items: [
-    'Team Lead — National Hackathons',
-    'Frontend / backend coordination',
-    'Pitching and task allocation',
-  ],
-},
-```
+A skill-swapping ecosystem where students exchange knowledge using credits instead of money.
 
-The section will be rendered automatically, and its label will automatically appear in the navigation. No `page.tsx` editing is needed for this kind of section.
+Teach something → earn credits → use them to learn something new.
 
-### Update experience / projects / education
+**Role:** Developer + Product Thinker
 
-These are also data-driven in `app/content.ts`:
+**Tech:** React · JavaScript · SQL
 
-- `experience`
-- `projects`
-- `education`
-- `skills`
-- `hackathons`
-- `contact`
+---
 
-### Update links
+### ⭐ NorthStar
 
-Change the URLs inside `contact` for GitHub, LinkedIn, or resume, or the `link` value on an experience entry for a company website.
+**AI · Data · Analytics**
 
-## Viewer vs owner editing
+An AI-assisted dataset analysis platform designed to make the first pass through messy data dramatically easier.
 
-The deployed website has **no edit/admin interface**. A visitor can only view and interact with the portfolio.
+Upload a dataset, identify column types, surface trends, and discover potential risks without needing a data analyst for every initial exploration.
 
-You are the editor because you control the source repository. To change content:
+**Role:** Analysis Pipeline Builder
 
-1. Edit `app/content.ts` locally (or edit that file in your private/owned GitHub repository).
-2. Preview with `npm run dev`.
-3. Commit/push the change.
-4. Vercel automatically creates a new deployment if the project is connected to the repository.
+**Tech:** Python · Data Analysis
 
-Do **not** expose an admin dashboard or editing API unless you intentionally want a CMS later.
+---
 
-## Resume
+### 🌌 EngiQuest
 
-The downloadable resume is in:
+**EdTech · Career Guidance · Interactive Learning**
 
-- `public/resume.pdf`
-- `public/resume.docx`
+A galaxy-themed career exploration platform helping students discover engineering domains, roadmaps, skills, difficulty levels, and potential career paths.
 
-The public Resume button downloads the PDF.
+**Role:** Product Designer + Developer
 
-## Visual assets
+**Tech:** React · JavaScript · Python
 
-The Starry Sky, number, palette, and other images originally supplied as visual references are **not used** in the site. The only intentionally used supplied visual is the JA logo at `public/ja-logo.png`, as specifically requested.
+---
 
-## Deployment
+### 📝 SideNote
 
-Recommended: deploy the repository with Vercel.
+**Productivity · Collaboration · Notes**
 
-### GitHub → Vercel workflow
+A collaborative note-taking platform for organizing, managing, and sharing academic knowledge.
 
-1. Create a GitHub repository for this project.
-2. Upload/push the contents of `joshiyaa-portfolio` to that repository.
-3. Import the repository into Vercel.
-4. Keep the default Next.js build settings.
-5. Deploy.
-6. Every future push to the production branch can automatically redeploy the updated portfolio.
+**Role:** Designer + Developer
 
-Your visitors only receive the built website; they do not receive access to your source files or editing controls.
+**Tech:** React · JavaScript · SQL
+
+---
+
+## 💼 Experience
+
+### AI Automation Engineer
+
+**Fortune Investment Services** · Aug 2026 – Present
+
+Developing AI-driven automation solutions for financial-services workflows.
+
+---
+
+### Automation & UI/UX Developer
+
+**Flowcialize** · 2026 – Present
+
+Working across:
+
+* Responsive website development
+* AI chatbots
+* Automated messaging
+* AI voice receptionist systems
+* Figma UI/UX & prototyping
+* Business automation
+* API integrations
+* Deployment & solution design
+
+---
+
+### Full Stack Developer Intern
+
+**Big Bucks Innovation Pvt. Ltd.** · Jun 2026 – Present
+
+Working across frontend, backend, and deployment as part of a collaborative product development team.
+
+---
+
+## ⚡ Tech Stack
+
+### Languages
+
+`Python` · `Java` · `C` · `C++` · `JavaScript` · `SQL`
+
+### Development
+
+`React` · `REST APIs` · `HTML` · `CSS`
+
+### Data & AI
+
+`Python` · `Data Analysis` · `Machine Learning` · `AI Automation`
+
+### Design
+
+`Figma` · `UI/UX` · `Prototyping` · `Interaction Design`
+
+### Other
+
+`Git` · `Cloud Deployment` · `API Integrations` · `Business Automation`
+
+---
+
+## 🏆 Hackathons
+
+I enjoy hackathons because they're basically product development compressed into a few caffeinated hours.
+
+| Hackathon     | Role               | Result       |
+| ------------- | ------------------ | ------------ |
+| RIT Hackathon | Team Lead          | 🥈 2nd Place |
+| VIT Hackathon | Frontend Developer | 🥈 2nd Place |
+| CIT Hackathon | Pitch Presenter    | 🥉 3rd Place |
+
+**3 podium finishes · 2× second place · 4 different roles**
+
+---
+
+## 🎓 Education
+
+### B.Tech — Information Technology
+
+**St. Joseph's Institute of Technology**
+2025–2029 · **CGPA: 8.3 / 10**
+
+### B.S. in Data Science and Applications
+
+**IIT Madras**
+Diploma level · Ongoing
+
+### Padma Seshadri Bala Bhavan Senior Secondary School
+
+2010–2025
+
+---
+
+## 📜 Certifications & Interests
+
+* Machine Learning
+* Data Science
+* Cybersecurity
+* Prompt Engineering
+* AI & Automation
+* Product Design
+
+Also a proud **IEEE Student Member**.
+
+---
+
+## 🎨 Design Philosophy
+
+> *"I care about usability as much as functionality."*
+
+For me, a product isn't finished when the code works.
+
+It should be:
+
+**Functional.
+Understandable.
+Useful.
+And just a little delightful.**
+
+I enjoy working at the intersection of **engineering × design × automation**, where technical systems and human experiences have to make sense together.
+
+---
+
+## 🌐 Portfolio
+
+Check out the full portfolio:
+
+**https://joshiyaaarjun-portfolio.vercel.app/**
+
+---
+
+## 📬 Let's Connect
+
+I'm open to:
+
+* 💼 Internships
+* 🤝 Collaborations
+* 🚀 Product experiments
+* 🧠 Interesting technical problems
+* 💬 Conversations about building things
+
+**Email:** [joshiyaaaarjun@gmail.com](mailto:joshiyaaaarjun@gmail.com)
+
+**GitHub:** [Joshiyaa Arjun](https://github.com/)
+
+**LinkedIn:** [Joshiyaa Arjun](https://linkedin.com/)
+
+---
+
+## ✦ A little note
+
+I like building things that start as *"what if..."* and end as something people can actually use.
+
+**Leave a little stardust in whatever you build. ✦**
+
+---
+
+© 2026 **Joshiyaa Arjun** · Built with intention.
